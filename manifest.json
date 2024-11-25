@@ -1,0 +1,14 @@
+{
+    "domain": "ha_elegoo",
+    "name": "HA ELEGOO",
+    "codeowners": [
+        "@Hellden"
+    ],
+    "config_flow": false,
+    "documentation": "https://github.com/Hellden/ha_elegoo",
+    "issue_tracker": "https://github.com/Hellden/ha_elegoo/issues",
+    "integration_type": "device",
+    "iot_class": "calculated",
+    "quality_scale": "silver",
+    "version": "3.0.0"
+}
