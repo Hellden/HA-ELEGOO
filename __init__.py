@@ -20,10 +20,6 @@ async def async_setup(
         config,
     )
 
-    # Mettre ici un eventuel code permettant l'initialisation de l'intégration
-    # Ca peut être une connexion sur le Cloud qui fournit les données par ex
-    # (pas nécessaire pour le tuto)
-
     # L'argument config contient votre fichier configuration.yaml
     my_config = config.get(DOMAIN)  # pylint: disable=unused-variable
 
