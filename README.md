@@ -21,9 +21,3 @@
 Remonter d'information de la machine ELEGOO Saturn 3 Ultra sur Home-Assistant.
 
 </div>
-
-<!-- LINKS_PLACEHOLDER -->
-
-<!-- TABLE_CONTENT_PLACEHOLDER -->
-
-<p align="right"><a href="#readme-top">(Back to top)</a></p>
