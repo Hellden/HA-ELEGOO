@@ -22,8 +22,6 @@ async def async_setup_platform(
     async_add_entities: AddEntitiesCallback,
     discovery_info=None,  # pylint: disable=unused-argument
 ):
-    """Configuration de la plate-forme tuto_hacs à partir de la configuration
-    trouvée dans configuration.yaml"""
 
     _LOGGER.debug("Calling async_setup_entry entry=%s", entry)
 
@@ -71,7 +69,7 @@ class TutoHacsElapsedSecondEntity(SensorEntity):
         # Arme le timer
         timer_cancel = async_track_time_interval(
             self._hass,
-            self.incremente_secondes,   # la méthode qui sera appelée toutes les secondes
+            self.incremente_secondes,  # la méthode qui sera appelée toutes les secondes
             interval=timedelta(seconds=1),
         )
         # desarme le timer lors de la destruction de l'entité
