@@ -53,3 +53,6 @@ if __name__ == "__main__":
         print(f"Imprimante trouvée à {addr} avec les données : {data}")
     else:
         print("Aucune imprimante détectée.")
+
+
+# Reponse attendu : Imprimante trouvée à ('172.16.16.*', 3000) avec les données : b'{"Id":"dddf25273b12b094c5a8b9513a30ca60049","Data":{"Attributes":{"Name":"Saturn3Ultra","MachineName":"ELEGOO Saturn 3 Ultra","ProtocolVersion":"V1.0.0","FirmwareVersion":"V1.5.4","Resolution":"11520x5120","MainboardIP":"172.16.16.146","MainboardID":"5b7e314f2ed00100","SDCPStatus":0,"LocalSDCPAddress":"","SDCPAddress":"","Capabilities":["FILE_TRANSFER","PRINT_CONTROL"]},"Status":{"CurrentStatus":0,"PreviousStatus":0,"PrintInfo":{"Status":0,"CurrentLayer":0,"TotalLayer":0,"CurrentTicks":0,"TotalTicks":0,"ErrorNumber":0,"Filename":""},"FileTransferInfo":{"Status":0,"DownloadOffset":0,"CheckOffset":0,"FileTotalSize":0,"Filename":""}}}}'
